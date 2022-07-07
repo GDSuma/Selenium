@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="SeleniumAmazon(failed)">
+    <classes>
+      <class name="TestScripts.Amazon">
+        <methods>
+          <include name="openapp"/>
+          <include name="scrollToLastMobile"/>
+          <include name="addRemovecart"/>
+        </methods>
+      </class> <!-- TestScripts.Amazon -->
+    </classes>
+  </test> <!-- SeleniumAmazon(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
